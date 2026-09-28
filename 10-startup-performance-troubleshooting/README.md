@@ -1,29 +1,15 @@
-# Lab 10: Startup Performance
-
-## Goal
-
-Review startup impact and reduce unnecessary startup load.
+# Lab 10: Startup apps
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-Task Manager Startup apps
+Reviewed startup impact in Task Manager and disabled Microsoft Edge startup. The screenshots show the before-and-after status; they do not measure a faster boot.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 6.56.09](screenshots/09-22-65609.png)
+- [09-22 at 6.57.05](screenshots/09-22-65705.png)
+- [09-22 at 6.57.54](screenshots/09-22-65754.png)

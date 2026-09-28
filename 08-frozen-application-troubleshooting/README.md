@@ -1,29 +1,15 @@
-# Lab 08: Frozen Application
-
-## Goal
-
-Find an unresponsive process and recover the user session.
+# Lab 08: Notepad process
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-Task Manager; Get-Process
+Identified the Notepad process with Get-Process and inspected it in Task Manager. The later command output shows the process state after the exercise. The screenshots do not independently prove that the application was unresponsive.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 5.13.11](screenshots/09-22-51311.png)
+- [09-22 at 5.14.16](screenshots/09-22-51416.png)
+- [09-22 at 5.17.15](screenshots/09-22-51715.png)

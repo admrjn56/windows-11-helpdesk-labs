@@ -1,29 +1,17 @@
-# Lab 06: Windows Services
-
-## Goal
-
-Inspect service status and startup behavior.
+# Lab 06: Windows service status
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-services.msc; Get-Service
+Compared Windows Update (wuauserv) and BITS service state, changed the update service startup mode for a test, checked it again, and restored a running/manual state. Service status and startup mode answer different questions.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 5.35.54](screenshots/09-22-53554.png)
+- [09-22 at 5.51.41](screenshots/09-22-55141.png)
+- [09-22 at 5.54.45](screenshots/09-22-55445.png)
+- [09-22 at 6.36.03](screenshots/09-22-63603.png)
+- [09-22 at 6.46.58](screenshots/09-22-64658.png)

@@ -1,29 +1,16 @@
-# Lab 11: Event Viewer
-
-## Goal
-
-Filter logs and interpret an event, including service Event ID 7040.
+# Lab 11: Event Viewer service logs
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-Event Viewer; Get-WinEvent
+Filtered the System log and examined Service Control Manager Event ID 7040, which recorded a service startup-type change. Used event details to relate a logged change to the service exercise.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 6.39.29](screenshots/09-22-63929.png)
+- [09-22 at 6.42.08](screenshots/09-22-64208.png)
+- [09-22 at 6.49.23](screenshots/09-22-64923.png)
+- [09-22 at 6.51.28](screenshots/09-22-65128.png)

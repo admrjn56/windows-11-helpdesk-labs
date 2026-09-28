@@ -1,29 +1,16 @@
-# Lab 09: Windows Update
-
-## Goal
-
-Investigate the update service and confirm its state.
+# Lab 09: Windows Update and BITS
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-services.msc; Get-Service wuauserv
+Viewed Windows Update settings and checked the Windows Update and BITS services while practicing a disabled-service scenario. An optional preview update was available; the screenshots do not show it being installed.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 5.49.30](screenshots/09-22-54930.png)
+- [09-22 at 5.50.53](screenshots/09-22-55053.png)
+- [09-22 at 5.54.45](screenshots/09-22-55445.png)
+- [09-22 at 5.57.00](screenshots/09-22-55700.png)

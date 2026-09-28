@@ -1,29 +1,16 @@
-# Lab 07: Print Spooler
-
-## Goal
-
-Diagnose a stopped printer service and verify recovery.
+# Lab 07: Print Spooler service
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-services.msc; Get-Service Spooler
+Checked the Print Spooler, stopped it, viewed its state in Services, restarted it, and confirmed that it was running. This demonstrates service recovery; it does not show a test print.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 4.55.54](screenshots/09-22-45554.png)
+- [09-22 at 4.57.34](screenshots/09-22-45734.png)
+- [09-22 at 4.58.26](screenshots/09-22-45826.png)
+- [09-22 at 4.59.10](screenshots/09-22-45910.png)

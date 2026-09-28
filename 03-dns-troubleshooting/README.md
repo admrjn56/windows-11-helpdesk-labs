@@ -1,29 +1,17 @@
-# Lab 03: DNS Troubleshooting
-
-## Goal
-
-Compare name resolution with IP connectivity.
+# Lab 03: DNS timeout diagnosis
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-nslookup; ipconfig /all
+Inspected the original DNS server, then tested a deliberately invalid server (203.0.113.1). IP ping still worked while nslookup timed out. The screenshots show the DNS setting being changed back; the before-and-after sequence demonstrates the distinction between IP reachability and name resolution.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-17 at 10.11.39](screenshots/09-17-101139.png)
+- [09-17 at 10.39.12](screenshots/09-17-103912.png)
+- [09-17 at 10.41.02](screenshots/09-17-104102.png)
+- [09-17 at 11.07.16](screenshots/09-17-110716.png)
+- [09-17 at 11.09.18](screenshots/09-17-110918.png)

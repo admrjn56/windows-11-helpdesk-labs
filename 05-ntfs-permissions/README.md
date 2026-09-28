@@ -1,29 +1,18 @@
-# Lab 05: NTFS Permissions
-
-## Goal
-
-Apply group-based read access and verify effective access.
+# Lab 05: HR folder and NTFS permissions
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-File Explorer Security tab; HR-Readers
+Created the HR-Readers local group and added jsmith. whoami /groups confirms membership; icacls later shows read/execute on C:\CompanyData\HR. Access attempts also produced permission errors. Folder ACLs and child-file permissions must be checked separately; this evidence does not establish that every file was readable.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 4.32.50](screenshots/09-22-43250.png)
+- [09-22 at 4.35.48](screenshots/09-22-43548.png)
+- [09-22 at 4.42.00](screenshots/09-22-44200.png)
+- [09-22 at 4.45.42](screenshots/09-22-44542.png)
+- [09-28 at 11.23.44](screenshots/09-28-112344.png)
+- [09-28 at 11.26.08](screenshots/09-28-112608.png)

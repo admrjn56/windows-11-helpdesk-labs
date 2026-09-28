@@ -1,29 +1,15 @@
-# Lab 02: Network Connectivity
-
-## Goal
-
-Inspect IP configuration and test connectivity in stages.
+# Lab 02: IP and network connectivity
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-ipconfig /all; ping
+Checked the virtual machine address and gateway with ipconfig. The gateway 192.168.248.2 and public address 8.8.8.8 responded to ping, separating basic connectivity from DNS problems.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-17 at 9.49.06](screenshots/09-17-94906.png)
+- [09-17 at 9.50.41](screenshots/09-17-95041.png)
+- [09-17 at 9.51.42](screenshots/09-17-95142.png)

@@ -1,29 +1,16 @@
-# Lab 12: Storage Cleanup
-
-## Goal
-
-Measure disk usage, clear expendable files, and compare free space.
+# Lab 12: Temporary files and disk space
 
 ## Environment
 
 Windows 11 virtual machine in VMware Fusion.
 
-## Tools
+## What I observed
 
-Windows Storage settings
+Reviewed Storage settings and temporary-file categories, then compared Get-PSDrive C readings (about 36.93 GB and 36.98 GB free). These screenshots support a small change in reported free space; they do not prove exactly which files were removed.
 
-## What I did
+## Screenshots
 
-Document the actual starting issue, steps taken, observations, and outcome here. Only include steps you personally performed.
-
-## Verification
-
-Record the specific result that confirmed the fix or the diagnostic conclusion.
-
-## Why this matters in help desk work
-
-A technician needs to explain the reported issue, isolate its cause, record the action taken, and confirm the result before closing a ticket.
-
-## Evidence
-
-Add 2–4 original, redacted screenshots to `screenshots/`, then link each one here with a short explanation. Never upload passwords, tokens, personal data, or identifiable account details.
+- [09-22 at 6.32.34](screenshots/09-22-63234.png)
+- [09-22 at 6.33.32](screenshots/09-22-63332.png)
+- [09-22 at 6.34.22](screenshots/09-22-63422.png)
+- [09-22 at 6.46.58](screenshots/09-22-64658.png)
